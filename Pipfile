@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+google-search-results = "*"
+openai = "*"
+langchain = "*"
+gpt-index = "==0.4.24"
+pypdf2 = "*"
+pycryptodome = "*"
+gradio = "*"
+bs4 = "*"
+beautifulsoup4 = "*"
+wikipedia = "*"
+python-docx = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
